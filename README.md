@@ -19,7 +19,7 @@ At the end it saves retrained model to my_model.h5
 Loading saved model and doing prediction on the same dataset.
  
 ## Step3<BR>  
-Converting my_model.mmh5 to TFLite2 format model.tflite.2
+Converting my_model.h5 to TFLite2 format model.tflite.2
 
 ## Step4  <BR>
 Using TFLite model to perform prediction on cat1.jpg image.
