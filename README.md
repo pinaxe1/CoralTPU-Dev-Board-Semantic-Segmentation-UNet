@@ -10,10 +10,10 @@ See Original Source URL for more details.
 
 ## image_segmentation_train_predict_and_save_TF_tutorial.py   <BR>
 The program is the Collection of the scripts from the tutorial. 
-It loads PETS Dataset and pretrained MobileNet2 from internet.
+It loads PETS Dataset and pretrained MobileNet V2 from internet.
 Retrains UpStsack Pix2Pix layers.
 Validates and shows model performance.
-At the end it saves retrained model to my_model.mmh5
+At the end it saves retrained model to my_model.h5
 
 ## image_segmentation_load_and_predict_TF.py <BR>
 Loading saved model and doing prediction on the same dataset.
