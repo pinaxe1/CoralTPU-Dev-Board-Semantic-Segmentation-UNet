@@ -6,7 +6,7 @@ Intended use. Create a retrainable semantic segmentation model to use on Coral T
 
 The project implments Fully Convolutional Network based on pretrained Keras MobileNetV2(128, 128, 3) + ReTrainable Pix2Pix upStack.
 The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, you will use the upsample block, which is already implemented in the pix2pix example in the TensorFlow Examples.
-See Original Source URL for more details.
+See Original Source URL for more details. It is a modifyed a little from original TF tutorial code to make it compatible with CORAL TPU DEV BOARD.
 
 ## Step1<BR>
 The program is the Collection of the scripts from the tutorial. 
