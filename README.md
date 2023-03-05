@@ -1,5 +1,5 @@
 # Semantic segmentation 
-This is a fork of official TF2 tutorial <BR>
+This is a "fork" of official TF2 tutorial <BR>
 Original source URL = 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
 
 Intended use. Create a retrainable semantic segmentation model to use on Coral TPU Dev board <BR>
