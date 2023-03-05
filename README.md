@@ -5,7 +5,7 @@ Original source URL = 'https://www.tensorflow.org/tutorials/images/segmentation'
 Intended use. Create a retrainable semantic segmentation model to use on Coral TPU Dev board <BR>
 
 The project implments Fully Convolutional Network based on pretrained Keras MobileNetV2(128, 128, 3) + ReTrinable Pix2Pix upStack.
-The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). To learn robust features and reduce the number of trainable parameters, use a pretrained model—MobileNetV2—as the encoder. For the decoder, you will use the upsample block, which is already implemented in the pix2pix example in the TensorFlow Examples
+The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, you will use the upsample block, which is already implemented in the pix2pix example in the TensorFlow Examples
 See Original Source URL for more details.
 
 ## image_segmentation_train_predict_and_save_TF_tutorial.py   <BR>
