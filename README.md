@@ -22,7 +22,11 @@ Loading saved model and doing prediction on the same dataset.
 Converting my_model.h5 to TFLite2 format model.tflite.2
 
 ## Step4  <BR>
-Using TFLite model to perform prediction on cat1.jpg image.
+Using TFLite model to perform prediction on cat1.jpg image.## 
+
+## Step5  <BR>
+Convert model to flatbuffer and fully integer quantization.
+ 
 <BR>
 <BR>
 
