@@ -22,13 +22,13 @@ Loading saved model and doing prediction on the same dataset.
 Converting my_model_trained.h5 to TFLite2 format model.tflite.2 without quantisation. Just to check if the model compatible with TFLite. We are not going to use it anyway.
  
 ## Step03_convert_keras_h5_ to_fully_quantized_tflite <BR>
-Converting my_model_trained.h5 to TFLite2 format #model.quantized.tflite with full integer quantization
+Converting my_model_trained.h5 to TFLite2 format model.quantized.tflite with full integer quantization
 
 ## Step04_load_tflite2_and_predict  <BR>
-Using TFLite model to perform prediction on cat1.jpg image.## 
+Using TFLite model to perform prediction on cat1.jpg image.
 
 ## Step04_load_tflite2_quantized_and_predict  <BR>
-Using fully quantized TFLite model to perform prediction on cat1.jpg image.## 
+Using fully quantized TFLite model to perform prediction on cat1.jpg image.
  
  
 <BR>
