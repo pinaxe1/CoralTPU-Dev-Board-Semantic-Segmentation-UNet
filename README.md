@@ -35,13 +35,13 @@ Converting my_model_trained.h5 to TFLite2 format model.tflite.2 without quantisa
 ### Step04_load_tflite2_and_predict  <BR>
 Using TFLite model to perform prediction on cat1.jpg image.
  
-## Step05_convert_keras_h5_ to_fully_quantized_tflite <BR>
+### Step05_convert_keras_h5_ to_fully_quantized_tflite <BR>
 Converting my_model_trained.h5 to TFLite2 format model.quantized.tflite with full integer quantization
 
-## Step06_load_tflite2_quantized_and_predict  <BR>
+### Step06_load_tflite2_quantized_and_predict  <BR>
 Using fully quantized TFLite model to perform prediction on cat1.jpg image.
  
-## Step07 Compile quantized model
+### Step07 Compile quantized model
 Compile quantized TFLite model for EDGETPU and upload it to Coral Edge TPU Dev Board.
 To compile the model use web based edgetpu-compiler. 
  'https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb' <BR>
@@ -50,7 +50,7 @@ To compile the model use web based edgetpu-compiler.
  Download compiled model <BR>
  Upload it to Coral Dev Board with cdp push model.edge.tflite <BR>
 
-## Step08 Run the model on Coral Dev Board
+### Step08 Run the model on Coral Dev Board
 To run the model we use semantic_segmentation.py program from
  'https://github.com/google-coral/pycoral/tree/master/examples'<BR>
  I believe it is already installed on Coral Dev Board with Mendel Linux in /home/mendel/coral/pycoral/examples/semantic_segmentation.py
