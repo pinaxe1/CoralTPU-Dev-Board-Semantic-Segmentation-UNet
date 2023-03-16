@@ -4,7 +4,7 @@ Sources:<BR>
  'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
  'https://coral.ai/docs/edgetpu/models-intro/#transfer-learning' <BR>
  'https://coral.ai/docs/edgetpu/compiler/'<BR>
- 'https://github.com/google-coral/pycoral/tree/master/examples'
+ 'https://github.com/google-coral/pycoral/tree/master/examples'<BR>
  'https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb'<BR>
  
 Intended use. Create a retrainable semantic segmentation model, train it and make it to run on Coral TPU Dev Board <BR>
