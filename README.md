@@ -7,7 +7,8 @@ Intended use. Create a retrainable semantic segmentation model to use on Coral T
 
 The project implments Fully Convolutional Network based on pretrained Keras MobileNetV2(128, 128, 3) + ReTrainable U-Net upStack.
 The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, we'll use the upsample 2D blocks.
-See Original Source URL for more details. It is a modifyed a little from original TF tutorial code to make it compatible with CORAL TPU DEV BOARD.
+See Original Source URL for more details. It is a modifyed from original TF tutorial code to make it compatible with CORAL TPU DEV BOARD. Since everything works steps 2, 3 and 4 are optional. After successfully performing steps 0,1,5,6 we can run edgetpu_compiler to create a model which will run on EDGE TPU.
+ 
 
 ## Step00_create_model_save_to_h5<BR>
 Loading pretrained MobileNet V2 from internet.
