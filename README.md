@@ -16,23 +16,23 @@ To compile quantized model we use web based edgetpu-compiler.
 To run ompiled model on Coral Dev Board do steps 7 and 8 
  
 
-# Step00_create_model_save_to_h5<BR>
+### Step00_create_model_save_to_h5<BR>
 Loading pretrained MobileNet V2 from internet.
 Creates model and savves it to file. 
 
- ## Step01_Load_model_train_predict_and_save_to_h5<BR>
+ ### Step01_Load_model_train_predict_and_save_to_h5<BR>
 Loading saved model It loads PETS Dataset and 
 Retrains UpStsack layers.
 Validates and shows model performance.
 At the end it saves trained model to my_model_trained.h5
 
-## Step02_load_trained_TF_model_and_predict 
+### Step02_load_trained_TF_model_and_predict 
 Loading trained model and runs prediction on the same dataset.
  
-## Step03_convert_h5_to_tflite2<BR>  
+### Step03_convert_h5_to_tflite2<BR>  
 Converting my_model_trained.h5 to TFLite2 format model.tflite.2 without quantisation. Just to check if the model compatible with TFLite. We are not going to use it anyway.
 
-## Step04_load_tflite2_and_predict  <BR>
+### Step04_load_tflite2_and_predict  <BR>
 Using TFLite model to perform prediction on cat1.jpg image.
  
 ## Step05_convert_keras_h5_ to_fully_quantized_tflite <BR>
