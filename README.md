@@ -16,7 +16,7 @@ To compile quantized model we use web based edgetpu-compiler.
 To run ompiled model on Coral Dev Board do steps 7 and 8 
  
 
-## Step00_create_model_save_to_h5<BR>
+# Step00_create_model_save_to_h5<BR>
 Loading pretrained MobileNet V2 from internet.
 Creates model and savves it to file. 
 
