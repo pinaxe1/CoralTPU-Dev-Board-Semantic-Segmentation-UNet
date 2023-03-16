@@ -1,5 +1,5 @@
 # Semantic segmentation 
-This is a "fork" of official TF2 tutorial and Coral Dev Board tutorials <BR>
+This is a derivative from official TF2 tutorial and Coral Dev Board tutorials <BR>
 Original sources: 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
  'https://coral.ai/examples/'<BR>
 
