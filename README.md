@@ -8,20 +8,22 @@ The project implments Fully Convolutional Network based on pretrained Keras Mobi
 The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, you will use the upsample block, which is already implemented in the pix2pix example in the TensorFlow Examples.
 See Original Source URL for more details. It is a modifyed a little from original TF tutorial code to make it compatible with CORAL TPU DEV BOARD.
 
-## Step1<BR>
+## Step01<BR>
 The program is the Collection of the scripts from the tutorial. 
 It loads PETS Dataset and pretrained MobileNet V2 from internet.
 Retrains UpStsack Pix2Pix layers.
 Validates and shows model performance.
 At the end it saves retrained model to my_model.h5
 
-## Step2<BR>
+## Step02<BR>
 Loading saved model and doing prediction on the same dataset.
  
-## Step3<BR>  
-Converting my_model.h5 to TFLite2 format model.tflite.2
+## Step03_convert_h5_to_tflite2<BR>  
+Converting my_model.h5 to TFLite2 format model.tflite.2 without quantisation
 
-## Step4  <BR>
+## Step03_convert_keras_h5_ to_fully_quantized_tflite <BR>
+Converting my_model.h5 to TFLite2 format model.tflite.2 with full integer quantization
+
 Using TFLite model to perform prediction on cat1.jpg image.## 
 
 ## Step5  <BR>
