@@ -1,7 +1,7 @@
 # Semantic segmentation on Coral TPU Dev Board
 This is a derivative from official TF2 and Coral Dev Board tutorials <BR>
 Sources:<BR> 
- 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
+ https://www.tensorflow.org/tutorials/images/segmentation <BR>
  'https://coral.ai/docs/edgetpu/models-intro/#transfer-learning' <BR>
  'https://coral.ai/docs/edgetpu/compiler/'<BR>
  'https://github.com/google-coral/pycoral/tree/master/examples'<BR>
