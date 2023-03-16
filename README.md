@@ -1,12 +1,12 @@
-# Semantic segmentation 
+# Semantic segmentation on Coral TPU Dev Board
 This is a derivative from official TF2 and Coral Dev Board tutorials <BR>
-Original sources: 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
- 'https://coral.ai/examples/'<BR>
+Sources:<BR> 
+ 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
  'https://coral.ai/docs/edgetpu/models-intro/#transfer-learning' <BR>
  'https://coral.ai/docs/edgetpu/compiler/'<BR>
- https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb<BR>
+ 'https://github.com/google-coral/pycoral/tree/master/examples'
+ 'https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb'<BR>
  
-
 Intended use. Create a retrainable semantic segmentation model, train it and make it to run on Coral TPU Dev Board <BR>
 
 The project implments Fully Convolutional Network based on pretrained Keras MobileNetV2(128, 128, 3) + ReTrainable U-Net upStack.
