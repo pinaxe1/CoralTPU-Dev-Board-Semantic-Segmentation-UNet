@@ -1,9 +1,9 @@
 # Semantic segmentation 
-This is a derivative from official TF2 tutorial and Coral Dev Board tutorials <BR>
+This is a derivative from official TF2 and Coral Dev Board tutorials <BR>
 Original sources: 'https://www.tensorflow.org/tutorials/images/segmentation' <BR>
  'https://coral.ai/examples/'<BR>
 
-Intended use. Create a retrainable semantic segmentation model to use on Coral TPU Dev board <BR>
+Intended use. Create a retrainable semantic segmentation model atrain it and make it run on Coral TPU Dev Board <BR>
 
 The project implments Fully Convolutional Network based on pretrained Keras MobileNetV2(128, 128, 3) + ReTrainable U-Net upStack.
 The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, we'll use the upsample 2D blocks.
