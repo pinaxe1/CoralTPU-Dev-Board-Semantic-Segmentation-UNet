@@ -52,7 +52,7 @@ To compile the model use web based edgetpu-compiler.
 
 ## Step08 Run the model on Coral Dev Board
 To run the model we use semantic_segmentation.py program from
- [[https://github.com/google-coral/pycoral  ](https://github.com/google-coral/pycoral/tree/master/examples)](https://github.com/google-coral/pycoral/tree/master/examples)
+ 'https://github.com/google-coral/pycoral/tree/master/examples'
  
  
 <BR>
