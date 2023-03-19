@@ -51,10 +51,10 @@ To compile the model use web based edgetpu-compiler.
  Upload it to Coral Dev Board with cdp push model.edge.tflite <BR>
 
 ### Step08 Run the model on Coral Dev Board
-To run the model we use semantic_segmentation.py program from
+To run the model we can use semantic_segmentation.py program from
  https://github.com/google-coral/pycoral/tree/master/examples <BR>
  I believe it is already installed on Coral Dev Board with Mendel Linux in /home/mendel/coral/pycoral/examples/semantic_segmentation.py
- 
+ Or alternatively Step08_segmentation_timing_CoralTPU.py which is little easyer. It has model Name and input files hardcoded so easyer to run.
 <BR>
 <BR>
 
