@@ -10,7 +10,6 @@ https://www.tensorflow.org/tutorials/images/segmentation
 import tensorflow as tf
 import tensorflow_datasets as tfds
 from keras.models import load_model
-from tensorflow_examples.models.pix2pix import pix2pix
 from IPython.display import clear_output
 import matplotlib.pyplot as plt
 
@@ -28,13 +27,11 @@ def load_image(datapoint):
     (128, 128),
     method = tf.image.ResizeMethod.NEAREST_NEIGHBOR,
   )
-
   input_image, input_mask = normalize(input_image, input_mask)
 
   return input_image, input_mask
 
 BATCH_SIZE = 64
-
 
 test_images = dataset['test'].map(load_image, num_parallel_calls=tf.data.AUTOTUNE)
 
@@ -66,9 +63,6 @@ def display(display_list):
   plt.show()
   
   
-model = tf.keras.applications.MobileNetV2()
-
-
 def create_mask(pred_mask,i):
   pred_mask = tf.math.argmax(pred_mask, axis=-1)
   pred_mask = pred_mask[..., tf.newaxis]
@@ -84,13 +78,8 @@ def show_predictions(dataset=None, num=1):
         display([image[i], mask[i], create_mask(pred_mask,i)])
 
 
-class DisplayCallback(tf.keras.callbacks.Callback):
-  def on_epoch_end(self, epoch, logs=None):
-    clear_output(wait=True)
-    show_predictions()
-    print ('\nSample Prediction after epoch {}\n'.format(epoch+1))
 
-
-model = load_model('my_model.h5')
+model = tf.keras.applications.MobileNetV2()
+model = load_model('my_model_trained.h5')
 model.summary()
-show_predictions(test_batches, 2)
+show_predictions(test_batches, 1)
