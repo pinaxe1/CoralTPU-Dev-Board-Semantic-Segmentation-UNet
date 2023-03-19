@@ -46,7 +46,7 @@ Compile quantized TFLite model for EDGETPU and upload it to Coral Edge TPU Dev B
 To compile the model use web based edgetpu-compiler. 
  https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb <BR>
  Upload the model to CoLab<BR>
- Compiile it <BR>
+ Compile it <BR>
  Download compiled model <BR>
  Upload it to Coral Dev Board with cdp push model.edge.tflite <BR>
 
