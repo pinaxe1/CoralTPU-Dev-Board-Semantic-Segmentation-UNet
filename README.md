@@ -13,7 +13,7 @@ The project implments Fully Convolutional Network based on pretrained Keras Mobi
 The model being used here is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). Uses a pretrained model—MobileNetV2—as the encoder. For the decoder, we'll use the upsample 2D blocks. See Original Source URL for more details. Model modifyed from original TF tutorial to make it compatible with CORAL TPU DEV BOARD. Since everything works steps 2, 3 and 4 are optional. After successfully performing steps 0,1,5,6,7,8 we can run edgetpu_compiler to create a model which will run on EDGE TPU.
 To compile quantized model we use web based edgetpu-compiler. 
  https://colab.research.google.com/github/google-coral/tutorials/blob/master/compile_for_edgetpu.ipynb <BR>
-To run ompiled model on Coral Dev Board do steps 7 and 8 
+To run compiled model on Coral Dev Board do steps 7 and 8 
  
 
 ### Step00_create_model_save_to_h5<BR>
